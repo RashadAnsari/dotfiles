@@ -1,0 +1,4 @@
+# Shadowsocks
+# https://amp.base64encode.org/
+
+ss://base64(encryption-method:password)@host:port#server-name
