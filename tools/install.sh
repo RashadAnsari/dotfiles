@@ -15,5 +15,3 @@ brew install wget
 brew install unzip
 brew install jq
 brew install yq
-
-brew install java

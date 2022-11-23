@@ -6,3 +6,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ./zsh/install.sh
 ./go/install.sh
 ./python/install.sh
+./node.js/install.sh
