@@ -8,9 +8,12 @@ fi
 
 brew upgrade
 
-brew install wget
 brew install jump
 brew install thefuck
+
+brew install wget
 brew install unzip
 brew install jq
 brew install yq
+
+brew install java

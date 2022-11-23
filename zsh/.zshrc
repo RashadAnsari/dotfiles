@@ -1,7 +1,11 @@
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+arch=$(uname -m)
 
-if  [[ $(uname -m) == arm64 ]]; then
-    export PATH=/opt/homebrew/bin:$PATH
+if  [[ $arch == x86_64 ]]; then
+    export BREW_PREFIX=/usr/local
+    export PATH=$HOME/bin:$BREW_PREFIX/bin:$PATH
+elif  [[ $arch == arm64 ]]; then
+    export BREW_PREFIX=/opt/homebrew
+    export PATH=$HOME/bin:/usr/local/bin:$BREW_PREFIX/bin:$PATH
 fi
 
 export ZSH="$HOME/.oh-my-zsh"
@@ -46,7 +50,8 @@ export PATH=$GOPATH/bin:$PATH
 
 # Java
 
-# export PATH="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/bin:$PATH"
+export PATH="$BREW_PREFIX/opt/openjdk/bin:$PATH"
+export CPPFLAGS="-I$BREW_PREFIX/opt/openjdk/include $CPPFLAGS"
 
 # Node.js
 
