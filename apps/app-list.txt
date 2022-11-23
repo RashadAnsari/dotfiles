@@ -1,0 +1,6 @@
+iTerm
+Chrome
+VSCode
+Docker
+Telegram
+Outline

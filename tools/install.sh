@@ -15,6 +15,7 @@ brew install wget
 brew install unzip
 brew install jq
 brew install yq
+brew install mounty
 
 # brew install kubectl
 # brew install stern
