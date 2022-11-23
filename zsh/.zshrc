@@ -1,4 +1,9 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+if  [[ $(uname -m) == arm64 ]]; then
+    export PATH=/opt/homebrew/bin:$PATH
+fi
+
 export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="albino"
@@ -35,13 +40,9 @@ export PATH=$GOPATH/bin:$PATH
 # export PYENV_ROOT="$HOME/.pyenv"
 # export PATH="$PYENV_ROOT/shims:$PATH"
 # export PIPENV_VENV_IN_PROJECT="enabled"
-# export POETRY_VIRTUALENVS_IN_PROJECT=true
 
 # eval "$(pyenv init -)"
 # eval "$(pyenv virtualenv-init -)"
-
-# alias activate-venv="source .venv/bin/activate"
-# alias deactivate-venv="deactivate"
 
 # Java
 

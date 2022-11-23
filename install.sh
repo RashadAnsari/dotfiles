@@ -5,4 +5,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ./tools/install.sh
 ./zsh/install.sh
 ./go/install.sh
-# ./python/install.sh
+./python/install.sh

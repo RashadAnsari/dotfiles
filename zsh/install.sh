@@ -5,6 +5,10 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 rm -rf ~/.zshrc
 cp ./zsh/.zshrc ~/.zshrc
+
+rm -rf ~/.zshenv
+cp ./zsh/.zshenv ~/.zshenv
+
 cp ./zsh/albino.zsh-theme ${ZSH}/themes/albino.zsh-theme
 touch ~/.hushlogin
 
