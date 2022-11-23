@@ -26,14 +26,8 @@ prompt_context(){}
 # Custom Settings
 # ##########
 
-# PHP
-
-# export PATH=$HOME/.composer/vendor/bin:$PATH
-
-# Tools
-
 # export HOMEBREW_NO_GITHUB_API=1
-# export HOMEBREW_NO_AUTO_UPDATE=1
+export HOMEBREW_NO_AUTO_UPDATE=1
 
 # source <(kubectl completion zsh)
 # source <(stern --completion=zsh)

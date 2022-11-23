@@ -15,3 +15,9 @@ brew install wget
 brew install unzip
 brew install jq
 brew install yq
+
+# brew install kubectl
+# brew install stern
+# brew install helm
+# brew install kubens
+# brew install kubectx
