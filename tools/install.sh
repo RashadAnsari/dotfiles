@@ -16,6 +16,7 @@ brew install unzip
 brew install jq
 brew install yq
 brew install mounty
+brew install htop
 
 brew install kubectl
 brew install stern
