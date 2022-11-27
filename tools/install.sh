@@ -17,8 +17,12 @@ brew install jq
 brew install yq
 brew install mounty
 
-# brew install kubectl
-# brew install stern
-# brew install helm
-# brew install kubens
-# brew install kubectx
+brew install kubectl
+brew install stern
+brew install helm
+brew install kubectx
+
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
+brew install terragrunt
+# brew install tfenv
