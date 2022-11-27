@@ -1,6 +1,6 @@
-iTerm
-Chrome
-VSCode
-Docker
-Telegram
-Outline
+iTerm: https://iterm2.com/
+Chrome: https://www.google.com/chrome/
+VSCode: https://code.visualstudio.com/
+Docker: https://www.docker.com/products/docker-desktop/
+Telegram: https://macos.telegram.org/
+Outline: https://getoutline.org/get-started/#step-3
