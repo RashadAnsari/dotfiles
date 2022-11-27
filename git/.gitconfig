@@ -1,0 +1,7 @@
+[user]
+    name = Rashad Ansari
+    email = rashad.ansari1996@gmail.com
+[core]
+    editor = /usr/bin/vim
+[color]
+    ui = auto

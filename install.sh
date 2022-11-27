@@ -9,3 +9,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ./node.js/install.sh
 ./php/install.sh
 ./scala/install.sh
+./git/install.sh
+./ssh/install.sh
