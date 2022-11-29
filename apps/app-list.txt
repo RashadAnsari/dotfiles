@@ -4,3 +4,4 @@ VSCode: https://code.visualstudio.com/
 Docker: https://www.docker.com/products/docker-desktop/
 Telegram: https://macos.telegram.org/
 Outline: https://getoutline.org/get-started/#step-3
+Spotify: https://www.spotify.com/uk/download/mac/
