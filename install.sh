@@ -11,3 +11,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ./scala/install.sh
 ./git/install.sh
 ./ssh/install.sh
+./gcloud/install.sh
