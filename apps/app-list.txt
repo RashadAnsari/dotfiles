@@ -5,3 +5,5 @@ Docker: https://www.docker.com/products/docker-desktop/
 Telegram: https://macos.telegram.org/
 Outline: https://getoutline.org/get-started/#step-3
 Spotify: https://www.spotify.com/uk/download/mac/
+Postman: https://www.postman.com/downloads/
+Bitwarden: https://bitwarden.com/download/
