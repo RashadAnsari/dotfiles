@@ -41,7 +41,7 @@ module.exports = {
         // custom CSS to embed in the terminal window
         termCSS: '',
         // set custom startup directory (must be an absolute path)
-        workingDirectory: '$HOME',
+        workingDirectory: '',
         // if you're using a Linux setup which show native menus, set to false
         // default: `true` on Linux, `true` on Windows, ignored on macOS
         showHamburgerMenu: '',
@@ -76,10 +76,10 @@ module.exports = {
         },
         // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
         // if left empty, your system's login shell will be used by default
-        shell: '',
+        shell: '/bin/bash',
         // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
         // by default `['--login']` will be used
-        shellArgs: ['--login'],
+        shellArgs: ['-c', 'cd $HOME && zsh'],
         // for environment variables
         env: {},
         // Supported Options:
@@ -121,7 +121,7 @@ module.exports = {
     //   `hyperpower`
     //   `@company/project`
     //   `project#1.0.1`
-    plugins: ['hyper-working-directory'],
+    plugins: [],
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here
     // to load it and avoid it being `npm install`ed
