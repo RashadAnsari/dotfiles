@@ -22,6 +22,8 @@ brew install stern
 brew install helm
 brew install kubectx
 
+brew install jsonnet
+
 brew install ansible
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
