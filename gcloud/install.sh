@@ -22,6 +22,12 @@ fi
 
 ~/google-cloud-sdk/install.sh --usage-reporting=false --command-completion=false --path-update=false --install-python=false
 
+# or
+
+# brew install --cask google-cloud-sdk
+
+# ----------
+
 rm -rf ~/.gcloud_zshenv
 cp ./gcloud/.gcloud_zshenv ~/.gcloud_zshenv
 echo 'source ~/.gcloud_zshenv' >> ~/.zshenv
