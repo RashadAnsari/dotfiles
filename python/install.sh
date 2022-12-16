@@ -17,7 +17,8 @@ python3 -m pip install --upgrade pip
 pip3 install poetry==1.1.12
 poetry config virtualenvs.in-project true
 
-rm -rf ~/.python_zshenv
-cp ./python/.python_zshenv ~/.python_zshenv
-echo 'source ~/.python_zshenv' >> ~/.zshenv
+mkdir -p ~/.zshenvs
+rm -rf ~/.zshenvs/python
+cp ./python/.zshenv ~/.zshenvs/python
+echo 'source ~/.zshenvs/python' >> ~/.zshenv
 source ~/.zshenv

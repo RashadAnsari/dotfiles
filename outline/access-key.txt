@@ -1,1 +1,2 @@
+# Shadowsocks
 ss://base64(encryption-method:password)@host:port#server-name

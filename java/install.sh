@@ -2,7 +2,8 @@
 
 brew install java
 
-rm -rf ~/.java_zshenv
-cp ./java/.java_zshenv ~/.java_zshenv
-echo 'source ~/.java_zshenv' >> ~/.zshenv
+mkdir -p ~/.zshenvs
+rm -rf ~/.zshenvs/java
+cp ./java/.zshenv ~/.zshenvs/java
+echo 'source ~/.zshenvs/java' >> ~/.zshenv
 source ~/.zshenv

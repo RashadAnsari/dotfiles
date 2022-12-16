@@ -6,7 +6,8 @@ brew install yarn
 brew install nvm
 mkdir -p ~/.nvm
 
-rm -rf ~/.node.js_zshenv
-cp ./node.js/.node.js_zshenv ~/.node.js_zshenv
-echo 'source ~/.node.js_zshenv' >> ~/.zshenv
+mkdir -p ~/.zshenvs
+rm -rf ~/.zshenvs/node.js
+cp ./node.js/.zshenv ~/.zshenvs/node.js
+echo 'source ~/.zshenvs/node.js' >> ~/.zshenv
 source ~/.zshenv

@@ -28,7 +28,8 @@ fi
 
 # ----------
 
-rm -rf ~/.gcloud_zshenv
-cp ./gcloud/.gcloud_zshenv ~/.gcloud_zshenv
-echo 'source ~/.gcloud_zshenv' >> ~/.zshenv
+mkdir -p ~/.zshenvs
+rm -rf ~/.zshenvs/gcloud
+cp ./gcloud/.zshenv ~/.zshenvs/gcloud
+echo 'source ~/.zshenvs/gcloud' >> ~/.zshenv
 source ~/.zshenv

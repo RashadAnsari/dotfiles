@@ -4,7 +4,7 @@ page=1
 per_page=100
 projects_file_name="projects.txt"
 base_gitlab_url="https://gitlab.com"
-private_token="<PRIVATE-TOKEN>"
+private_token=$1
 
 while true; do
     projects=$(curl --header "PRIVATE-TOKEN: $private_token" "$base_gitlab_url/api/v4/projects/?simple=yes&private=true&per_page=$per_page&page=$page")

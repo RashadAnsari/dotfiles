@@ -3,7 +3,8 @@
 brew install php@8.1
 brew install composer
 
-rm -rf ~/.php_zshenv
-cp ./php/.php_zshenv ~/.php_zshenv
-echo 'source ~/.php_zshenv' >> ~/.zshenv
+mkdir -p ~/.zshenvs
+rm -rf ~/.zshenvs/php
+cp ./php/.zshenv ~/.zshenvs/php
+echo 'source ~/.zshenvs/php' >> ~/.zshenv
 source ~/.zshenv
