@@ -1,15 +1,15 @@
 #!/bin/zsh
 
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-rm -rf ~/.zshrc
-cp ./zsh/.zshrc ~/.zshrc
+rm -rf $HOME/.zshrc
+cp ./zsh/.zshrc $HOME/.zshrc
 
-rm -rf ~/.zshenv
-cp ./zsh/.zshenv ~/.zshenv
+rm -rf $HOME/.zshenv
+cp ./zsh/.zshenv $HOME/.zshenv
 
 cp ./zsh/albino.zsh-theme ${ZSH}/themes/albino.zsh-theme
-touch ~/.hushlogin
+touch $HOME/.hushlogin
 
-source ~/.zshrc
+source $HOME/.zshrc

@@ -1,4 +1,4 @@
 #!/bin/zsh
 
-rm -rf ~/.gitconfig
-cp ./git/.gitconfig ~/.gitconfig
+rm -rf $HOME/.gitconfig
+cp ./git/.gitconfig $HOME/.gitconfig

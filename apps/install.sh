@@ -1,8 +1,8 @@
 #!/bin/zsh
 
 brew install --cask hyper
-rm -rf ~/.hyper.js
-cp ./apps/.hyper.js ~/.hyper.js
+rm -rf $HOME/.hyper.js
+cp ./apps/.hyper.js $HOME/.hyper.js
 
 brew install --cask google-chrome
 brew install --cask visual-studio-code
