@@ -1,5 +1,5 @@
 "use strict";
-// https://hyper.is/#cfg
+// https://hyper.is
 module.exports = {
     config: {
         updateChannel: 'stable',
