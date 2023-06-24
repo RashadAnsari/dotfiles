@@ -32,3 +32,5 @@ brew install terragrunt
 brew install infracost
 
 brew install awscli
+
+brew install mongosh
