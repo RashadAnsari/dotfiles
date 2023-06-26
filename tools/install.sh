@@ -16,6 +16,7 @@ brew install unzip
 brew install jq
 brew install yq
 brew install htop
+brew install telnet
 
 brew install kubectl
 brew install stern
