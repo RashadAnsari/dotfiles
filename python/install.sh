@@ -9,8 +9,10 @@ brew install readline
 brew install sqlite3
 brew install xz
 brew install pango
-brew install postgresql
 brew install curl-openssl
+
+brew tap homebrew/core
+brew install postgresql
 
 brew install python@3.8
 python3 -m pip install --upgrade pip
