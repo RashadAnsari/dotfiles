@@ -17,6 +17,7 @@ brew install jq
 brew install yq
 brew install htop
 brew install telnet
+brew install cmake
 
 brew install kubectl
 brew install stern
