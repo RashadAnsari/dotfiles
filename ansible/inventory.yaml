@@ -3,11 +3,11 @@ all:
   children:
     server:
       hosts:
-        de-01.example.com:
-          ansible_host: 192.168.1.2
+        nl-01.vpn.com:
+          ansible_host: x.x.x.x
           ansible_user: root
     bridge:
       hosts:
-        ir-01.example.com:
-          ansible_host: 192.168.1.3
+        ir-01.vpn.com:
+          ansible_host: y.y.y.y
           ansible_user: root
