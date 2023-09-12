@@ -12,4 +12,3 @@ brew install --cask spotify
 brew install --cask docker
 brew install --cask postman
 # brew install --cask bitwarden
-brew install --cask mounty
