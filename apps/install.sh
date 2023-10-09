@@ -11,4 +11,7 @@ brew install --cask telegram
 brew install --cask spotify
 brew install --cask docker
 brew install --cask postman
-# brew install --cask bitwarden
+brew install --cask bitwarden
+brew install --cask slack
+brew install --cask zoom
+brew install --cask zoho-mail
