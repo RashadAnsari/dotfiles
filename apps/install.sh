@@ -14,4 +14,4 @@ brew install --cask postman
 brew install --cask bitwarden
 brew install --cask slack
 brew install --cask zoom
-brew install --cask zoho-mail
+# brew install --cask zoho-mail
