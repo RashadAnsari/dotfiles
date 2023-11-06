@@ -1,7 +1,7 @@
-export PATH="$BREW_PREFIX/opt/node@14/bin:$PATH"
+export PATH="$BREW_PREFIX/opt/node@18/bin:$PATH"
 
-export LDFLAGS="-L$BREW_PREFIX/opt/node@14/lib $LDFLAGS"
-export CPPFLAGS="-I$BREW_PREFIX/opt/node@14/include $CPPFLAGS"
+export LDFLAGS="-L$BREW_PREFIX/opt/node@18/lib $LDFLAGS"
+export CPPFLAGS="-I$BREW_PREFIX/opt/node@18/include $CPPFLAGS"
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
