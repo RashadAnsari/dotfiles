@@ -1,16 +1,18 @@
 #!/bin/bash
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+source lib.sh
 
-./tools/install.sh
-./zsh/install.sh
-./apps/install.sh
-./go/install.sh
-./python/install.sh
-./node.js/install.sh
-# ./php/install.sh
-./java/install.sh
-# ./scala/install.sh
-./git/install.sh
-./ssh/install.sh
-./gcloud/install.sh
+./dev/zsh/install.sh
+
+source dev/brew/install.sh
+source dev/tools/install.sh
+source dev/git/install.sh
+source dev/ssh/install.sh
+source dev/go/install.sh
+source dev/python/install.sh
+source dev/node.js/install.sh
+# source dev/php/install.sh
+# source dev/java/install.sh
+# source dev/scala/install.sh
+
+source apps/install.sh

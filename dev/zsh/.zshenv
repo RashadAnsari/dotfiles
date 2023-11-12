@@ -5,4 +5,3 @@ if  [[ $arch == x86_64 ]]; then
 elif  [[ $arch == arm64 ]]; then
     export BREW_PREFIX=/opt/homebrew
 fi
-

@@ -1,5 +1,5 @@
-export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=true
 export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=true
+export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=true
 
 export LDFLAGS="-L$BREW_PREFIX/opt/zlib/lib ${LDFLAGS}"
 export CPPFLAGS="-I$BREW_PREFIX/opt/zlib/include ${CPPFLAGS}"
@@ -18,6 +18,5 @@ export CPPFLAGS="-I$BREW_PREFIX/opt/curl/include ${CPPFLAGS}"
 export PKG_CONFIG_PATH="$BREW_PREFIX/opt/curl/lib/pkgconfig ${PKG_CONFIG_PATH}"
 
 alias python="python3"
-alias deactivate-venv="deactivate"
 alias activate-venv="source .venv/bin/activate"
 alias python-venv="poetry env use $(which python3)"
