@@ -5,3 +5,5 @@
     editor = /usr/bin/vim
 [color]
     ui = auto
+[init]
+    defaultBranch = master
