@@ -7,6 +7,7 @@ cp ./apps/.hyper.js $HOME/.hyper.js
 brew install --cask google-chrome
 brew install --cask visual-studio-code
 brew install --cask telegram
+brew install --cask whatsapp
 # brew install --cask outline-client
 brew install --cask spotify
 brew install --cask docker
