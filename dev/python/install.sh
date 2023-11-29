@@ -12,6 +12,7 @@ brew install pango
 brew install curl-openssl
 brew install postgresql
 brew install python@3.8
+brew install pyenv
 
 python3 -m pip install --upgrade pip
 pip3 install poetry==1.1.12
