@@ -5,6 +5,7 @@ source lib.sh
 ./dev/zsh/install.sh
 
 source dev/brew/install.sh
+source dev/nix/install.sh
 source dev/tools/install.sh
 source dev/git/install.sh
 source dev/vim/install.sh
