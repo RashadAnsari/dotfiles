@@ -2,6 +2,7 @@
 
 source lib.sh
 
+install_xcode_tools
 ./dev/zsh/install.sh
 
 source dev/brew/install.sh
