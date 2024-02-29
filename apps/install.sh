@@ -15,3 +15,4 @@ brew install --cask postman
 # brew install --cask bitwarden
 brew install --cask slack
 brew install --cask zoom
+# brew install --cask hp-smart
