@@ -11,12 +11,7 @@ brew install cmake
 # brew install kubectx
 # brew install jsonnet
 # brew install ansible
-# brew tap hashicorp/tap
-# brew install terragrunt
-# brew install tfenv
-# brew install infracost
 # brew install awscli
-# brew install mongosh
 
 brew install jump
 echo 'eval "$(jump shell)"' >> $HOME/.zshrc
