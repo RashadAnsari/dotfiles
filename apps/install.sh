@@ -10,3 +10,6 @@ brew install --cask spotify
 brew install --cask docker
 # brew install --cask adguard
 # brew install --cask hp-smart
+
+brew install --cask slack
+brew install --cask notion
