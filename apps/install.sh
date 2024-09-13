@@ -13,3 +13,4 @@ brew install --cask docker
 
 brew install --cask slack
 brew install --cask notion
+brew install --cask google-chrome
