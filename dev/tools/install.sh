@@ -25,4 +25,4 @@ echo 'eval "$(jump shell)"' >> $HOME/.zshrc
 # echo 'source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"' >> $HOME/.zshrc
 # echo 'source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"' >> $HOME/.zshrc
 
-copyZshEnv tools
+# copyZshEnv tools
