@@ -12,7 +12,6 @@ plugins=(
   git
   zsh-autosuggestions
   zsh-syntax-highlighting
-  thefuck
 )
 
 source $ZSH/oh-my-zsh.sh
