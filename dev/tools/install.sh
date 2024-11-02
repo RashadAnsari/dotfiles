@@ -1,6 +1,5 @@
 #!/bin/zsh
 
-brew install thefuck
 brew install wget
 brew install unzip
 brew install jq
