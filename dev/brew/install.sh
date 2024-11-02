@@ -5,5 +5,5 @@ NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Ho
 copyZshEnv brew
 
 brew upgrade
-brew tap homebrew/core
-brew install hashicorp/tap/terraform
+# brew tap homebrew/core
+# brew install hashicorp/tap/terraform
