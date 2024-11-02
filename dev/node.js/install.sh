@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-brew install node@18
+brew install node@20
 brew install yarn
 
 brew install nvm
