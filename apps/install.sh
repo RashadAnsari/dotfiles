@@ -4,16 +4,16 @@ brew install --cask hyper
 rm -rf $HOME/.hyper.js
 cp ./apps/.hyper.js $HOME/.hyper.js
 
+# Personal
 brew install --cask google-chrome
 brew install --cask visual-studio-code
 brew install --cask cursor
 brew install --cask telegram
 brew install --cask spotify
 brew install --cask docker
+# https://apps.apple.com/us/app/hp-smart-for-desktop/id1474276998
 
-brew install --cask slack
-brew install --cask notion
-brew install --cask bitwarden
-
-# brew install --cask adguard
-# brew install --cask hp-smart
+# Work
+# brew install --cask slack
+# brew install --cask notion
+# brew install --cask bitwarden
