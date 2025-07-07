@@ -19,3 +19,6 @@ source $ZSH/oh-my-zsh.sh
 export LANG="en_US.UTF-8"
 export EDITOR="vim"
 
+# Gemini CLI
+# export GOOGLE_CLOUD_PROJECT="MY_GOOGLE_CLOUD_PROJECT"
+# export GEMINI_API_KEY="MY_GEMINI_API_KEY"
