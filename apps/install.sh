@@ -12,7 +12,7 @@ brew install --cask spotify
 
 # Coding
 brew install --cask visual-studio-code
-brew install --cask cursor # https://github.com/yeongpin/cursor-free-vip
+brew install --cask cursor
 brew install --cask docker
 
 # Work
