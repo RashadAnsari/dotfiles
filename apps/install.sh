@@ -8,7 +8,7 @@ cp ./apps/.hyper.js $HOME/.hyper.js
 brew install --cask google-chrome
 brew install --cask telegram
 brew install --cask spotify
-brew install --cask lm-studio
+# brew install --cask lm-studio
 # https://apps.apple.com/us/app/hp-smart-for-desktop/id1474276998
 
 # Coding
