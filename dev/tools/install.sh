@@ -11,7 +11,6 @@ brew install cmake
 # brew install jsonnet
 # brew install ansible
 # brew install awscli
-brew install gemini-cli
 
 brew install jump
 echo 'eval "$(jump shell)"' >> $HOME/.zshrc
