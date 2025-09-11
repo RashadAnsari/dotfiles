@@ -5,6 +5,3 @@ if  [[ $arch == x86_64 ]]; then
 elif  [[ $arch == arm64 ]]; then
     export BREW_PREFIX=/opt/homebrew
 fi
-
-alias rebase-main="git fetch origin && git rebase origin/main"
-alias rebase-master="git fetch origin && git rebase origin/master"
