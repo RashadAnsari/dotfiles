@@ -11,4 +11,3 @@ source dev/git/install.sh
 source dev/vim/install.sh
 source dev/ssh/install.sh
 source apps/install.sh
-source dev/nix/install.sh
