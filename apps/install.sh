@@ -17,5 +17,4 @@ brew install --cask cursor
 brew install --cask docker
 
 # AI
-# brew install --cask lm-studio
-# https://apps.apple.com/us/app/perplexity-ask-anything/id6714467650
+brew install --cask claude
