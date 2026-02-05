@@ -18,3 +18,4 @@ brew install --cask docker
 
 # AI
 brew install --cask claude
+brew install --cask claude-code
