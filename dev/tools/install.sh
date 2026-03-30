@@ -11,6 +11,3 @@ brew install gemini-cli
 
 brew install jump
 echo 'eval "$(jump shell)"' >> $HOME/.zshrc
-
-# Cursor CLI
-curl https://cursor.com/install -fsS | bash
