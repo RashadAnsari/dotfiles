@@ -7,6 +7,7 @@ install_xcode_tools
 
 source dev/brew/install.sh
 source dev/tools/install.sh
+source dev/go/install.sh
 source dev/git/install.sh
 source dev/vim/install.sh
 source dev/ssh/install.sh
