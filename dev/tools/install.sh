@@ -24,3 +24,9 @@ curl -fsSL https://cdn.jsdelivr.net/gh/ruvnet/ruflo@main/scripts/install.sh | ba
 # bun
 brew tap oven-sh/bun
 brew install bun
+
+# jenv
+brew install jenv
+echo 'eval "$(jenv init -)"' >> $HOME/.zshrc
+eval "$(jenv init -)"
+jenv enable-plugin export
