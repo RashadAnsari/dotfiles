@@ -10,6 +10,7 @@ brew install --cask telegram
 brew install --cask spotify
 brew install --cask nordvpn
 brew install --cask appcleaner
+brew install --cask puremac
 # https://apps.apple.com/us/app/hp-smart-for-desktop/id1474276998
 
 # Coding
