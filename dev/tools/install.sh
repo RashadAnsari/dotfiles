@@ -18,8 +18,6 @@ brew install --cask claude-code
 
 # uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
-# ruflo
-curl -fsSL https://cdn.jsdelivr.net/gh/ruvnet/ruflo@main/scripts/install.sh | bash
 
 # bun
 brew tap oven-sh/bun
