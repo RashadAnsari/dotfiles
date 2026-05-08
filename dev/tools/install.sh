@@ -31,6 +31,7 @@ eval "$(jenv init -)"
 jenv enable-plugin export
 
 # free-claude-code
+# https://github.com/Alishahryar1/free-claude-code
 uv tool install git+https://github.com/Alishahryar1/free-claude-code.git
 fcc-init
 echo 'alias free-claude="ANTHROPIC_AUTH_TOKEN=freecc ANTHROPIC_BASE_URL=http://localhost:8082 CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY=1 claude"' >> $HOME/.zshrc
