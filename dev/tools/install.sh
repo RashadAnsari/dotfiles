@@ -34,4 +34,24 @@ jenv enable-plugin export
 # https://github.com/Alishahryar1/free-claude-code
 uv tool install git+https://github.com/Alishahryar1/free-claude-code.git
 fcc-init
-echo 'alias free-claude="ANTHROPIC_AUTH_TOKEN=freecc ANTHROPIC_BASE_URL=http://localhost:8082 CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY=1 claude"' >> $HOME/.zshrc
+echo 'free-claude() {
+  local FREE_CLAUDE_PID=""
+
+  if ! lsof -i :8082 >/dev/null 2>&1; then
+    free-claude-code > /dev/null 2>&1 &!
+    FREE_CLAUDE_PID=$!
+    echo "free-claude-code server started"
+    sleep 2
+  fi
+
+  ANTHROPIC_AUTH_TOKEN=freecc \
+  ANTHROPIC_BASE_URL=http://localhost:8082 \
+  CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY=1 \
+  claude
+
+  if [ -n "$FREE_CLAUDE_PID" ]; then
+    kill $FREE_CLAUDE_PID 2>/dev/null
+    echo "free-claude-code server stopped"
+  fi
+}
+' >> $HOME/.zshrc
