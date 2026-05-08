@@ -29,3 +29,8 @@ brew install jenv
 echo 'eval "$(jenv init -)"' >> $HOME/.zshrc
 eval "$(jenv init -)"
 jenv enable-plugin export
+
+# free-claude-code
+uv tool install git+https://github.com/Alishahryar1/free-claude-code.git
+fcc-init
+free-claude-code
