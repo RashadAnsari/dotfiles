@@ -15,7 +15,7 @@ echo 'eval "$(jump shell)"' >> $HOME/.zshrc
 # claude
 brew install --cask claude
 brew install --cask claude-code
-echo 'alias ruflo="bunx ruflo@latest init"' >> $HOME/.zshrc
+curl -fsSL https://raw.githubusercontent.com/RashadAnsari/myagents/master/install.sh | bash
 
 # uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
