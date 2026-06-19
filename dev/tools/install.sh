@@ -7,6 +7,7 @@ brew install yq
 brew install htop
 brew install telnet
 brew install cmake
+brew install ngrok
 
 # jump
 brew install jump
