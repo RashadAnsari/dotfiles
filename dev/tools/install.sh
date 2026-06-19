@@ -8,6 +8,7 @@ brew install htop
 brew install telnet
 brew install cmake
 brew install ngrok
+brew install cloudflared
 
 # jump
 brew install jump
