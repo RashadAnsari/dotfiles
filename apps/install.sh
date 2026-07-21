@@ -12,6 +12,10 @@ brew install --cask nordvpn
 brew install --cask puremac
 # https://apps.apple.com/us/app/hp-smart-for-desktop/id1474276998
 
+# MagicBridge
+brew tap rashadansari/magicbridge https://github.com/RashadAnsari/MagicBridge
+brew install --cask magicbridge
+
 # Coding
 brew install --cask visual-studio-code
 brew install --cask docker
