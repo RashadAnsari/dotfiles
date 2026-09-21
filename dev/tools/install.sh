@@ -17,6 +17,7 @@ echo 'eval "$(jump shell)"' >> $HOME/.zshrc
 # claude
 brew install --cask claude
 brew install --cask claude-code
+curl -fsSL https://chatgpt.com/codex/install.sh | sh   
 curl -fsSL https://raw.githubusercontent.com/RashadAnsari/myagents/master/install.sh | bash
 
 # uv
