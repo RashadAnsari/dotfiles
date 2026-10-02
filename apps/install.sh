@@ -12,7 +12,6 @@ brew install --cask nordvpn
 brew install --cask tailscale
 brew install --cask puremac
 brew install --cask homebrew-app
-# https://apps.apple.com/us/app/hp-smart-for-desktop/id1474276998
 
 # MagicBridge
 brew tap rashadansari/magicbridge https://github.com/RashadAnsari/MagicBridge
