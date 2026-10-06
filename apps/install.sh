@@ -11,6 +11,7 @@ brew install --cask spotify
 brew install --cask nordvpn
 brew install --cask tailscale
 brew install --cask puremac
+brew install --cask openmtp
 brew install --cask homebrew-app
 
 # MagicBridge
