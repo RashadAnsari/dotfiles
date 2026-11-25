@@ -37,6 +37,7 @@ Kept here for reference; `install.sh` doesn't touch these:
 
 - [cfg/vscode/main.code-profile](cfg/vscode/main.code-profile): VS Code profile. Import it with *Profiles → Import Profile*.
 - [cfg/ansible/](cfg/ansible/): Ansible config and an inventory template.
+- [cfg/ansible/](cfg/docker/docker-ipv6.sh): Script to configure Docker for IPv6 support.
 - [cfg/cloudflare/outbound-email.md](cfg/cloudflare/outbound-email.md): sending mail from a Cloudflare Email Routing address through Gmail SMTP.
 
 ## License
