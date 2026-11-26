@@ -22,3 +22,4 @@ brew install --cask magicbridge
 brew install --cask visual-studio-code
 brew install --cask docker
 brew install --cask intellij-idea-ce
+brew install --cask t3-code
